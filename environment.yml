@@ -174,7 +174,7 @@ dependencies:
     - triton==2.0.0
     - tzdata==2023.3
     - uc-micro-py==1.0.2
-    - urllib3==2.0.3
+    - urllib3==2.2.0
     - uvicorn==0.22.0
     - websocket-client==1.6.1
     - websockets==11.0.3
