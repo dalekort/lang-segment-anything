@@ -3,8 +3,8 @@ name = "lang-sam"
 version = "0.1.0"
 description = "Language segment-anything"
 readme = "README.md"
-documentation = "https://github.com/luca-medeiros/lang-segment-anything/blob/main/README.md"
-repository = "https://github.com/luca-medeiros/lang-segment-anything"
+documentation = "https://github.com/dalekort/lang-segment-anything/blob/main/README.md"
+repository = "https://github.com/dalekort/lang-segment-anything"
 authors = [
   "Luca Medeiros <lucamedeiros@outlook.com>",
 ]
@@ -16,10 +16,10 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.8, <3.11"
 gradio = "^3.24.1"
-huggingface-hub = "^0.16.4"
+huggingface-hub = "^0.19.4"
 numpy = "^1.24.2"
 opencv_python = "^4.7.0.72"
-Pillow = "9.3.0"
+Pillow = "10.3.0"
 transformers = "^4.27.4"
 lightning = "^2.0.1"
 segment-anything = {git = "https://github.com/facebookresearch/segment-anything.git"}
